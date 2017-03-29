@@ -45,6 +45,8 @@
 		A1E7C503188D5E550010896F /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7C4FA188D5E550010896F /* STKDataSourceWrapper.m */; };
 		A1E7C504188D5E550010896F /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7C4FC188D5E550010896F /* STKHTTPDataSource.m */; };
 		A1E7C505188D5E550010896F /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E7C4FE188D5E550010896F /* STKLocalFileDataSource.m */; };
+		E1B016DB1E8BEBC600657DED /* STKInputStreamDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B016D91E8BEBC600657DED /* STKInputStreamDataSource.h */; };
+		E1B016DC1E8BEBC600657DED /* STKInputStreamDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B016DA1E8BEBC600657DED /* STKInputStreamDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		A1E7C4FD188D5E550010896F /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLocalFileDataSource.h; sourceTree = "<group>"; };
 		A1E7C4FE188D5E550010896F /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLocalFileDataSource.m; sourceTree = "<group>"; };
 		A1E7C507188D62D20010896F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1B016D91E8BEBC600657DED /* STKInputStreamDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKInputStreamDataSource.h; sourceTree = "<group>"; };
+		E1B016DA1E8BEBC600657DED /* STKInputStreamDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKInputStreamDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +288,8 @@
 				A1E7C4FC188D5E550010896F /* STKHTTPDataSource.m */,
 				A1E7C4FD188D5E550010896F /* STKLocalFileDataSource.h */,
 				A1E7C4FE188D5E550010896F /* STKLocalFileDataSource.m */,
+				E1B016D91E8BEBC600657DED /* STKInputStreamDataSource.h */,
+				E1B016DA1E8BEBC600657DED /* STKInputStreamDataSource.m */,
 				A1BF65D0189A6582004DD08C /* STKQueueEntry.h */,
 				A1BF65D1189A6582004DD08C /* STKQueueEntry.m */,
 				A1BF65D3189A65C6004DD08C /* NSMutableArray+STKAudioPlayer.h */,
@@ -326,6 +332,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B016DB1E8BEBC600657DED /* STKInputStreamDataSource.h in Headers */,
 				5B949CD21A1140E4005675A0 /* STKAudioPlayer.h in Headers */,
 				5B949CD31A1140E4005675A0 /* STKAutoRecoveringHTTPDataSource.h in Headers */,
 				5B949CD41A1140E4005675A0 /* STKCoreFoundationDataSource.h in Headers */,
@@ -528,6 +535,7 @@
 				A1E7C503188D5E550010896F /* STKDataSourceWrapper.m in Sources */,
 				A1E7C502188D5E550010896F /* STKDataSource.m in Sources */,
 				A1BF65D5189A65C6004DD08C /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				E1B016DC1E8BEBC600657DED /* STKInputStreamDataSource.m in Sources */,
 				A1E7C500188D5E550010896F /* STKAutoRecoveringHTTPDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
